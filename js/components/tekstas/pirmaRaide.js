@@ -1,7 +1,9 @@
 function pirmaRaide(text) {
-    const raide = text[0];
+    if (text === '') {
+        return '';
+    }
 
-    return raide;
+    return text[0];
 
 }
 

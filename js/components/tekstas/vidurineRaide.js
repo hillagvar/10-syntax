@@ -1,4 +1,7 @@
 function vidurineRaide(text) {
+    if (text === '') {
+        return '';
+    }
 
     const ilgis = text.length;
     const vidurinesRaidesPozicija = Math.ceil(ilgis / 2 - 1);

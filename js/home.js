@@ -36,3 +36,9 @@ console.log(s2, '->', 'maonmsyragts');
 
 const s3 = vientisasTekstas(['as', 'i', 'ten']);
 console.log(s3, '->', 'aasiiiten');
+
+const s4 = vientisasTekstas(['']);
+console.log(s4, '->', '');
+
+const s5 = vientisasTekstas(['x']);
+console.log(s5, '->', 'xxx');
