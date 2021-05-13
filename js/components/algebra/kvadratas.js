@@ -1,5 +1,3 @@
-function kvadratas(a) {
-    return a*a;
-}
+const kvadratas = a => a*a;
 
 export { kvadratas }

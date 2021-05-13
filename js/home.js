@@ -8,6 +8,9 @@ import { vidurkis } from './components/algebra/vidurkis.js';
 
 import { vientisasTekstas} from './components/tekstas/vientisasTekstas.js';
 
+import { pirmaRaide2 } from './uzd.js';
+import { didziojiRaide } from './uzd.js';
+
 // EXECUTION
 
 const a = suma (8,5);
@@ -42,3 +45,23 @@ console.log(s4, '->', '');
 
 const s5 = vientisasTekstas(['x']);
 console.log(s5, '->', 'xxx');
+
+console.log(pirmaRaide2('bardakas'), '->', 'b');
+
+console.log(pirmaRaide2('malunsparnis'), '->', 'm');
+
+console.log(didziojiRaide('malunsparniS',12), '->', true);
+
+console.log(didziojiRaide('barsukas',5), '->', false);
+
+console.log(didziojiRaide('G',1), '->', true);
+
+console.log(didziojiRaide('aaaaaaa',3), '->', false);
+
+console.log(didziojiRaide('TrOlOlO',3), '->', true);
+
+console.log(didziojiRaide('jopstTvAJroGeS',6), '->', true);
+
+console.log(didziojiRaide('Nezinau',1), '->', true);
+
+console.log(didziojiRaide('Nezinau',2), '->', false);

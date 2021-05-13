@@ -1,5 +1,3 @@
-function dalyba(a,b) {
-    return a / b;
-}
+const dalyba = (a,b) => a / b;
 
 export { dalyba }
