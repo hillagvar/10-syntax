@@ -1,7 +1,6 @@
 function paskutineRaide(text) {
-
-    const paskutineRaide = text[text.length - 1];
-    return paskutineRaide;
+    
+    return text[text.length - 1];
 }
 
 export { paskutineRaide }
